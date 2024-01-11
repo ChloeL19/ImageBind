@@ -2,6 +2,15 @@
 
 **[FAIR, Meta AI](https://ai.facebook.com/research/)** 
 
+## Chloe-specific setup notes
+Installing requirements.txt throws memory error in my WSL environment:
+
+pip install torch==1.13.0+cpu to
+rchvision==0.14.0+cpu torchaudio==0.13.0+cpu -f https://download.pytorch.org/whl/torch_stable.ht
+ml
+
+
+
 Rohit Girdhar*,
 Alaaeldin El-Nouby*,
 Zhuang Liu,
